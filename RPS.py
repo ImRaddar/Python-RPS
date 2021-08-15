@@ -64,7 +64,7 @@ while True:
     try:
         PlayerSelect = PlayerSelect()
     except ValueError as e:
-        range_str = "[0, 2}]"
+        range_str = "[0, 2]"
         print("Invalid selection.")
         continue
 
